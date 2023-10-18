@@ -1,0 +1,13 @@
+chp 3 code with harry assignment
+
+1)#include <stdio.h>
+
+int main() {
+  int a = 10;
+  if (a=11)
+  printf ("I am 11");
+  else 
+  printf ("I am not 11");
+}
+
+output- I am 11

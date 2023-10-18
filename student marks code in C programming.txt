@@ -1,0 +1,40 @@
+    float maths,science,english,hindi,history,sum,average,percentage;   
+    char name,email;
+    int password,standard,number;
+    
+    printf("Welcome to the site Student, please login using your credentials\n");
+    printf("Kindly input your name\n");
+    scanf("%s", &name);
+    printf("Kindly input your email\n");
+    scanf("%s", &email);
+    printf("Kindly input your password\n");
+    scanf("%d", &password);
+    printf("Kindly input your standard\n");
+    scanf("%d", &standard);
+    printf("Kindly input your contact number\n");
+    scanf("%d", &number);
+    
+    printf("You have been logged in successfuly, now please enter your marks\n");
+    printf("Kindly input the marks scored in maths\n");
+    scanf("%f", &maths);
+    printf("Kindly input the marks scored in science\n");
+    scanf("%f", &science);
+    printf("Kindly input the marks scored in english\n");
+    scanf("%f", &english);
+    printf("Kindly input the marks scored in hindi\n");
+    scanf("%f", &hindi);
+    printf("Kindly input the marks scored in history\n");
+    scanf("%f", &history);
+    
+    sum = maths+science+english+hindi+history;
+    percentage = (sum/500)*100;
+    average = sum/5;
+    
+    printf("The total sum of marks scored by you is =%f\n", sum);
+    printf("The Percentage scored by you is as follows =%f\n", percentage);
+    printf("The net average secured by student is =%f\n", average);
+    
+    if (percentage>35)
+    printf("Congratulations Student!! You have passed the examinations");
+    else
+    printf("Sorry Student, you have failed in examination, please wait until further notice for re-examination schedule");
